@@ -11,9 +11,11 @@
 
 <body>
   <header>
-    <figure class="headerpic"> 
-      <img src="https://source.unsplash.com/random/200x100" alt="picture of Tanja Süß" width="280" height="180">
-   </figure>  
+    <div class="headerpic">
+    <figure > 
+        <img src="https://source.unsplash.com/random/200x100" alt="picture of Tanja Süß" width="280" height="180">
+    </figure>  
+    </div>
   <div class="headermiddle">
     <h1>Tanja Süß</h1>
     <p class="welcome">Welcome to my personal website</p>
@@ -22,28 +24,27 @@
       <ul>
     <li><a href="#biography">Biography</a></li>
       <li><a href="#contact">Contact</a></li>
-      <li><a href="#private">Private World</a></li>
+      <li><a href="#private" aria-label="photos">Private World</a></li>
       </ul>
     </nav>
   </header>
 
-
-
   <main>
-    <div>
+    <div class="tagfield">
    <h2>Professional Experience</h2>
-   <ul>
-     <li class="tag">qualification/training</li>
+   <ul class="tag">
+     <li >qualification/training</li>
      <li>quality management</li>
      <li>personnel management</li>
      <li>project management</li> 
      <li>self-organization</li>
      <li>moderating</li>
-
    </ul>
   </div>
+
+  <div class="tagfield"> 
    <h2>Soft Skills</h2>
-   <ul>
+   <ul class="tag">
      <li>love to learn</li>
      <li>open minded</li>
      <li>positive energy</li>
@@ -53,8 +54,11 @@
      <li>creative pragmatism</li>
      <li>interested in solutions with win-win results</li>
    </ul>
+  </div>
+
+  <div class="tagfield"> 
    <h2>IT Skills</h2>
-   <ul>
+   <ul class="tag">
      <li><a href="https://github.com/ttaannjjaa"> GitHub</a><img src="images/GitHub-Mark-32px.png" width="20px" height="20px"></li>
      <li>Z shell</li>
      <li>HTML</li>
@@ -63,17 +67,19 @@
      <li>Javascript</li>
      <li>...to be continued</li>
    </ul>
-     
+  </div>
+
   <section id="biography">
     <h2>Biography</h2>
     <p>After school i was not brave enough to study computer science, but human medicine. 
   As physician i worked plenty of years in different positions. Now i feel myself to have the best age to 
-  switch into IT, with the option of combining the previous knowledge with the new acquired/acquiring.
+  switch into IT, with the option of combining the previous knowledge with the new one acquired/being continued to acquire.
     </p>
   </section>
-  <section>
+
+  <section class="capstones">
     <h3>Some Capstones</h3>
-  <ul class="capstones">
+  <ul class="capstonelist">
     <li>2022 Bootcamp Web Development <a href="">neuefische</a></li><br>
     <li>2011 Promotion (Dr. med.)</li>
     <li>2005 Specialist in General Medicine (Fachärztin für Allgemeinmedizin)</li>
@@ -95,7 +101,11 @@
 
 <section id="private">
 <h3>and some pics from my private world</h3>
-
+<div class="piccontainer">
+  <figure><img src="" alt=""></figure>
+  <figure><img src="" alt=""></figure>
+  <figure><img src="" alt=""></figure>
+</div>
 </section> 
 </main>
 <footer>
