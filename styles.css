@@ -4,13 +4,66 @@
 
 
 body {
-    background-color: rgb(217, 236, 216);
+    background-color: rgb(236, 232, 225);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 112,5%;
     line-height: 1.5;
+    margin-left: 2em;
+    margin-right: 2em;
+    opacity: 0.9;
 }
 
 h1, h2, h3, h4, h5, h6 {
     line-height: 1.2;
 }
 
+.headerleft {
+    border: 1px solid red;
+    display: flex;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+h1 {
+    padding: 40px 100px 0 20px;
+    font-size: 30px;
+    display: inline;
+}
+
+
+nav {
+    display: inline-block;
+    margin: 15px 5px 0 0;
+}
+
+a {
+    display: inline-block;
+    margin: 0 8px 0 0;
+    color: rgb(26, 26, 131);
+    font-weight: 800;
+
+}
+
+
+li {background-color: rgb(204, 202, 226);
+    color: rgb(9, 9, 82);
+    display:inline-block;
+    padding: 6px;
+    border-radius: 3px;
+    margin-right: 12px;
+    margin-bottom: 10px;
+    box-shadow: 3px 2px rgb(165, 149, 149) ;
+}
+
+.capstones > li {
+    background-color:rgb(204, 202, 226);
+    display: inline-block;
+}
+
+address {
+    margin: 0 0 35px 0;
+}
