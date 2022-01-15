@@ -37,12 +37,15 @@ header {
     align-items: center;
 }
 
+.headerpic img {
+    width: 100%;
+}
+
 .headermiddle {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
 
 h1 {
     font-size: 30px;
@@ -117,28 +120,40 @@ a {
 }
 
 #biography, .capstones p {
-    margin: 2.5rem 2.5rem;
+    margin: 2.5rem 2.5rem 1.8rem;
     text-align: center;
 }
 
-#biography h2, h3 {
+#biography h2 {
     padding: 0 0 0.3rem 0; 
     margin: 2rem 0 0.5rem 0;
     text-align: center;
 }
 
-.capstonelist {
-    max-width: 300px;
-    padding: 2px;  
-    margin: 1rem;
+h3 {
+    padding: 0 0 0.3rem 0; 
+    margin: 0 0 0.5rem 0;
+    text-align: center;
 }
 
+.capstones {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
-.capstonelist li {
+.capstonelist {
+    width: 350px;
+    padding: 2px 8px;  
+    background-color: white;
+}
+
+.capstones li {
 list-style-type: none;
 display: block;
-background-color: white;
 white-space: nowrap;
+flex-shrink: ;
 }
 
 address {
