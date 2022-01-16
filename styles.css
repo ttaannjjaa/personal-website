@@ -18,6 +18,10 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.2;
 }
 
+li {
+    list-style-type: none;
+    }
+
 header {
     border-bottom: solid 0.5px rgb(126, 9, 9);
     border-top: solid 0.5px rgb(126, 9, 9);
@@ -63,7 +67,6 @@ margin: 0 0 1rem 0;
 }
 
 nav li {
-    list-style-type: none;
     margin: 0 0.4rem 0 0;
 }
 
@@ -100,8 +103,8 @@ a {
     padding: 8px 12px;
     border-radius: 5px;
     margin: 0 12px 1.5rem  0;
-    border: 0.1rem solid;
-    box-shadow: inset 0.2rem 0.2rem rgba(71, 11, 11, 0.6);
+    border: 0.1rem solid rgba(71, 11, 11, 0.6);
+    box-shadow: inset 0rem 0rem 0.5rem rgba(71, 11, 11, 0.6);
     list-style-type: none;
     text-align: center;
 }
@@ -119,8 +122,8 @@ a {
     background-color: black;
 }
 
-#biography, .capstones p {
-    margin: 2.5rem 2.5rem 1.8rem;
+#biography {
+    margin: 2.5rem 3rem 1.8rem;
     text-align: center;
 }
 
@@ -128,11 +131,12 @@ a {
     padding: 0 0 0.3rem 0; 
     margin: 2rem 0 0.5rem 0;
     text-align: center;
+    
 }
 
 h3 {
     padding: 0 0 0.3rem 0; 
-    margin: 0 0 0.5rem 0;
+    margin: 1rem;
     text-align: center;
 }
 
@@ -140,33 +144,87 @@ h3 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .capstonelist {
-    width: 350px;
+    max-width: 350px;
+    height: 200px;
     padding: 2px 8px;  
     background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.capstones li {
-list-style-type: none;
-display: block;
-white-space: nowrap;
-flex-shrink: ;
+.topcapstone {
+    text-align: center;
 }
 
-address {
-    margin: 0 0 35px 0;
+.topcapstone img {
+    filter: contrast(120%);
+}
+
+.capstones p {
+    margin: 1.5rem 3rem 1.8rem;
+    text-align: center;
 }
 
 .capstones span {
     white-space: nowrap;
+} 
+
+address {
+    margin: 0 0 35px 0;
+    display: flex; 
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    white-space: nowrap;
+    gap: 8px; 
 }
 
+address div {
+    padding: 1rem;
+    border: solid 2px rgb(126, 9, 9);
+    width: 250px;
+    border-radius: 53px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
 
+.material-icon {
+    margin-right: 3px;
+}
+
+#private {
+    margin: 3.5rem 0 1rem;
+    background-color: rgb(221, 219, 210);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 1px solid rgba(71, 11, 11, 0.6)
+}
+
+.mimicontainer {
+background-color: white;
+display: flex;
+justify-content: center;
+width: 400px;
+}
+
+.mimicontainer figure{
+    padding: 5px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    transform: scale(0.8);
+}
 
 footer {
     background-color: black;
     color: white;
+    font-weight: 200;
+    padding: 0.5rem 0;
 }
