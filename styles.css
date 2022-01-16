@@ -120,19 +120,26 @@ a:hover {
     width: 70px;
     height: 70px;
     padding: 1rem;
-    border: solid 3px rgb(126, 9, 9);
+    border: solid 3px black;
     border-radius: 50%;
     background-color: black;
 }
 
+.icon:hover {
+    width: 70px;
+    height: 70px;
+    padding: 1rem;
+    border: solid 3px rgb(126, 9, 9);
+}
+
 #biography {
-    margin: 2.5rem 3rem 1.8rem;
+    margin: 2.2rem 3rem 1.8rem;
     text-align: center;
 }
 
 #biography h2 {
     padding: 0 0 0.3rem 0; 
-    margin: 2rem 0 0.5rem 0;
+    margin: 0 0 0.5rem 0;
     text-align: center;
     
 }
@@ -205,6 +212,10 @@ address div {
 
 #linkedinicon {
     padding: 0.5rem 1rem;
+}
+
+#mail, #phone {
+    font-style: normal;
 }
 
 #private {
