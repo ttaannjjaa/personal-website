@@ -1,0 +1,58 @@
+.biography {
+  margin: 2.2rem 3rem 1.8rem;
+  text-align: center;
+}
+
+.biography__heading__h2 {
+  padding: 0 0 0.3rem 0;
+  margin: 0 0 0.5rem 0;
+  text-align: center;
+}
+
+.biography__heading__h3 {
+  padding: 0 0 0.3rem 0;
+  margin: 1rem;
+  text-align: center;
+}
+
+.biography-capstones {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.biography-capstonelist {
+  max-width: 350px;
+  height: auto;
+  padding: 8px;
+  background-color: white;
+}
+
+.biography-topcapstone {
+  text-align: center;
+}
+
+.biography__image {
+  filter: contrast(120%);
+}
+
+.biography__image:hover {
+  border-bottom: black 1px solid;
+}
+
+.biography__p {
+  margin: 1.5rem 3rem 1.8rem;
+  text-align: center;
+}
+
+.biography__dd,
+.biography__dt {
+  background-color: white;
+}
+
+.biography__dt {
+  float: left;
+  width: 25%;
+  margin-left: 0.5rem;
+}

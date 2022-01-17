@@ -1,0 +1,38 @@
+.main-header {
+  border-bottom: solid 0.5px rgb(126, 9, 9);
+  border-top: solid 0.5px rgb(126, 9, 9);
+  background-color: rgb(221, 219, 210);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 1rem 0 2.4rem 0;
+}
+
+.main-header-pic {
+  margin: 0.5rem 0 0 0;
+  padding: 0.5rem;
+}
+
+.main-header__image {
+  max-width: 100%;
+  height: auto;
+}
+
+.main-header-middle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-header-welcome {
+  font-size: 20px;
+  white-space: nowrap;
+}
+
+@media (max-width: 310px) {
+  .main-header-welcome {
+    display: none;
+  }
+}

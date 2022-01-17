@@ -5,73 +5,78 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tanja Süß - Personal Website</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="/styles/styles.css" />
   </head>
 
   <body>
-    <header>
-      <div class="headerpic">
-        <figure>
-          <img
-            src="images/DSC_5756_2.jpg"
-            alt="picture of Tanja Süß"
-            width="300"
-            height="180"
-            id="self"
-          />
-        </figure>
-      </div>
-      <div class="headermiddle">
+    <header class="main-header">
+      <figure class="main-header-pic">
+        <img
+          class="main-header__image"
+          src="images/DSC_5756_2.jpg"
+          alt="picture of Tanja Süß"
+          width="300"
+          height="180"
+        />
+      </figure>
+      <div class="main-header-middle">
         <h1>Tanja Süß</h1>
-        <p class="welcome">Welcome to my personal website</p>
+        <p class="main-header-welcome">Welcome to my personal website</p>
       </div>
-      <nav class="headerright">
-        <ul>
-          <li><a href="#biography">Biography</a></li>
-          <li><a href="#contact">Contact</a></li>
+      <nav class="nav-bar">
+        <ul class="nav-bar__ul" role="list">
+          <li><a href="#mybiography">Biography</a></li>
+          <li><a href="#contactme">Contact</a></li>
           <li><a href="#private" aria-label="photo of a cat">InSight</a></li>
         </ul>
       </nav>
     </header>
 
     <main>
-      <section id="skills">
+      <section class="tagfield-wrapper">
         <div class="tagfield">
-          <h2 class="notwrap" id="profexp">Professional Experience</h2>
-          <ul class="tagbuttons notwrap">
-            <li>employee qualification</li>
-            <li>quality management</li>
-            <li>team leader role</li>
-            <li>project management</li>
+          <h2 class="mb-1rem whitespace-notwrap">Professional Experience</h2>
+          <ul class="tagfield__list whitespace-notwrap" role="list">
+            <li class="tagfield__listitem">employee qualification</li>
+            <li class="tagfield__listitem">quality management</li>
+            <li class="tagfield__listitem">team leader role</li>
+            <li class="tagfield__listitem">project management</li>
           </ul>
         </div>
 
         <div class="tagfield">
-          <h2>Soft Skills</h2>
-          <ul class="tagbuttons notwrap">
-            <li>love to learn</li>
-            <li>open minded/curiosity</li>
-            <li>high intrinsic motivation</li>
-            <li>positive energy</li>
-            <li>team player</li>
-            <li>endurance</li>
-            <li>flexibility</li>
-            <li>creative pragmatism</li>
-            <li>interested in solutions with win-win results</li>
+          <h2 class="mb-1rem">Soft Skills</h2>
+          <ul class="tagfield__list whitespace-notwrap" role="list">
+            <li class="tagfield__listitem">love to learn</li>
+            <li class="tagfield__listitem">open minded/curiosity</li>
+            <li class="tagfield__listitem">high intrinsic motivation</li>
+            <li class="tagfield__listitem">positive energy</li>
+            <li class="tagfield__listitem">team player</li>
+            <li class="tagfield__listitem">endurance</li>
+            <li class="tagfield__listitem">flexibility</li>
+            <li class="tagfield__listitem">creative pragmatism</li>
+            <li class="tagfield__listitem">
+              interested in solutions with win-win results
+            </li>
           </ul>
         </div>
 
         <div class="tagfield">
-          <h2>IT Skills</h2>
-          <ul class="tagbuttons">
-            <li class="notwrap">Z shell</li>
-            <li>HTML</li>
-            <li class="notwrap">Accessibility in Programming</li>
-            <li>CSS</li>
-            <li class="notwrap">Javascript</li>
-            <li class="notwrap">...to be continued</li>
+          <h2 class="mb-1rem">IT Skills</h2>
+          <ul class="tagfield__list" role="list">
+            <li class="tagfield__listitem whitespace-notwrap">Z shell</li>
+            <li class="tagfield__listitem">HTML</li>
+            <li class="tagfield__listitem whitespace-notwrap">
+              Accessibility in Programming
+            </li>
+            <li class="tagfield__listitem">CSS</li>
+            <li class="tagfield__listitem whitespace-notwrap">Javascript</li>
+            <li class="tagfield__listitem whitespace-notwrap">
+              ...to be continued
+            </li>
           </ul>
-          <div id="giticon">
+
+          <div class="giticon">
             <a
               href="https://github.com/ttaannjjaa"
               aria-label="link to GitHub Profile"
@@ -82,22 +87,23 @@
         </div>
       </section>
 
-      <section id="biography">
-        <h2>Biography</h2>
-        <p>
+      <section class="biography" id="mybiography">
+        <h2 class="biography__heading__h2">Biography</h2>
+        <p class="biography__p">
           After school i was not brave enough to study computer science, but
           human medicine. As physician i worked plenty of years in different
           positions. Now i feel myself to have the best age to switch into IT,
-          starting with <span class="notwrap">FrontEnd WebDevelopment.</span
+          starting with
+          <span class="whitespace-notwrap">FrontEnd WebDevelopment.</span
           ><br />One option is combining the previous knowledge with the new
           one. I am also open for all the other advanced working fields.
         </p>
       </section>
 
-      <section class="capstones">
-        <h3>Some Milestones</h3>
-        <div class="capstonelist">
-          <div class="topcapstone">
+      <section class="biography-capstones">
+        <h3 class="biography__heading__h3">Some Milestones</h3>
+        <div class="biography-capstonelist">
+          <div class="biography-topcapstone">
             NOW! - 2022 Bootcamp Web Development
             <a
               href="https://www.neuefische.de/"
@@ -106,37 +112,42 @@
               ><img
                 src="images/neue_fische_Logo.JPG"
                 alt="logo IT education company neuefische, Hamburg"
-                id="neuefische"
+                class="biography__image"
             /></a>
           </div>
           <dl>
-            <dt>2011</dt>
-            <dd>Promotion (Dr. med.)</dd>
-            <dt>09/2005</dt>
-            <dd>Specialist in Surgery</dd>
-            <dd>1996</dd>
-            <dt>German Approbation as physician</dt>
+            <dt class="biography__dt posinline">2011</dt>
+            <dd class="biography__dd">Promotion (Dr. med.)</dd>
+
+            <dt class="biography__dt posinline">11/2005</dt>
+            <dd class="biography__dd">Specialist in General Medicine</dd>
+
+            <dt class="biography__dt posinline">09/2005</dt>
+            <dd class="biography__dd">Specialist in Surgery</dd>
+
+            <dt class="biography__dt">1996</dt>
+            <dd class="biography__dd">German Approbation as physician</dd>
           </dl>
         </div>
-        <p>
+        <p class="biography__p">
           For details of my cv, which includes employers as <br /><span
             >acute hospitals</span
           >, <span>a general practice</span>,
           <span>a social service provider</span> and
           <span>a rehabilitation clinic,</span><br />
-          please feel free to <span id="contact">contact me</span>.
+          please feel free to <span id="contactme">contact me</span>.
         </p>
       </section>
 
-      <address>
-        <div id="mail">
-          <img
-            src="images/mail_black_24dp.svg"
-            alt=""
-            class="material-icon"
-          /><a href="mailto:t.suess@online.de">newfish@inthepool.com</a>
+      <address class="contact">
+        <div class="contact__button-style">
+          <img src="images/mail_black_24dp.svg" alt="" class="mr-3" /><a
+            class="contact__button-style--mail"
+            href="mailto:t.suess@online.de"
+            >newfish@inthepool.com</a
+          >
         </div>
-        <div id="linkedinicon">
+        <div class="contact__button-style contact__button-style--linkedin">
           <svg
             width="70%"
             height="70%"
@@ -165,33 +176,36 @@
             </g>
           </svg>
         </div>
-        <div id="phone">
+        <div class="contact__button-style contact__button-style--phone-text">
           <img
             src="images/phone_black_24dp.svg"
             alt=""
-            class="material-icon"
+            class="mr-3"
           />0123/3210123
         </div>
       </address>
 
-      <section id="private">
-        <h3>My Special Support</h3>
-        <div class="mimicontainer">
-          <figure>
+      <section class="insight" id="private">
+        <h3 class="mb-1rem">My Special (Tech)Support</h3>
+        <div class="insight-container">
+          <figure class="insight__figure">
             <img
               src="images/Schreibtischkatze1.jpg"
               alt="my cat sitting on my computer desk"
-              width="350"
+              width="330"
               height="560"
+              class="insight__img"
             />
-            <figcaption>hello World, let me introduce Mimi ♥️</figcaption>
+            <figcaption class="insight__figcaption">
+              hello World, let me introduce Mimi ♥️
+            </figcaption>
           </figure>
         </div>
       </section>
     </main>
 
     <footer>
-      <span>&copy; ttaannjjaa, January 2022</span>
+      <span>&copy; ttaannjjaa, <time>January 2022</time></span>
     </footer>
   </body>
 </html>
