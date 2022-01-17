@@ -74,7 +74,7 @@ a, #phone {
     font-weight: 800;
 }
 
-a:hover {
+.headerright a:hover, #mail a:hover {
     background-color: black;
     color: rgb(248, 247, 242)
 }
@@ -116,20 +116,16 @@ a:hover {
     white-space: nowrap;
 }
 
-.icon {
-    width: 70px;
-    height: 70px;
-    padding: 1rem;
-    border: solid 3px black;
-    border-radius: 50%;
-    background-color: black;
+#giticon {
+    margin: 0.8rem;
+    background-color: rgb(248, 247, 242);
 }
 
-.icon:hover {
-    width: 70px;
-    height: 70px;
-    padding: 1rem;
-    border: solid 3px rgb(126, 9, 9);
+#giticon:hover {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background-color:rgba(71, 11, 11, 0.6);
 }
 
 #biography {
@@ -174,6 +170,10 @@ h3 {
 
 .topcapstone img {
     filter: contrast(120%);
+}
+
+#neuefische:hover {
+    border-bottom: black 1px solid;
 }
 
 .capstones p {
