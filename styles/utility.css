@@ -1,7 +1,23 @@
-.mr-3 {
+.mb-1rem {
+  margin: 0 0 1rem 0;
+}
+
+.mr-3px {
   margin-right: 3px;
 }
 
 .whitespace-notwrap {
   white-space: nowrap;
+}
+
+.giticon {
+  margin: 0.8rem;
+  background-color: rgb(248, 247, 242);
+}
+
+.giticon:hover {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background-color: rgba(71, 11, 11, 0.6);
 }
