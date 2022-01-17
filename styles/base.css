@@ -26,6 +26,12 @@ h1 {
   font-size: 30px;
 }
 
+a {
+  margin: 0 8px 0 0;
+  color: rgb(26, 26, 131);
+  font-weight: 800;
+}
+
 ul[role="list"] {
   list-style-type: none;
 }
