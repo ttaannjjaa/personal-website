@@ -5,28 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tanja Süß - Personal Website</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="/styles/styles.css" />
   </head>
 
   <body>
-    <header>
-      <div class="headerpic">
-        <figure>
-          <img
-            src="images/DSC_5756_2.jpg"
-            alt="picture of Tanja Süß"
-            width="300"
-            height="180"
-            id="self"
-          />
-        </figure>
-      </div>
-      <div class="headermiddle">
+    <header class="main-header">
+      <figure class="main-header-pic">
+        <img
+          class="main-header__image"
+          src="images/DSC_5756_2.jpg"
+          alt="picture of Tanja Süß"
+          width="300"
+          height="180"
+        />
+      </figure>
+      <div class="main-header-middle">
         <h1>Tanja Süß</h1>
-        <p class="welcome">Welcome to my personal website</p>
+        <p class="main-header-welcome">Welcome to my personal website</p>
       </div>
-      <nav class="headerright">
-        <ul>
+      <nav class="nav-bar">
+        <ul class="nav-bar__ul" role="list">
           <li><a href="#biography">Biography</a></li>
           <li><a href="#contact">Contact</a></li>
           <li><a href="#private" aria-label="photo of a cat">InSight</a></li>
@@ -175,13 +173,13 @@
       </address>
 
       <section id="private">
-        <h3>My Special Support</h3>
+        <h3>My Special (Tech)Support</h3>
         <div class="mimicontainer">
           <figure>
             <img
               src="images/Schreibtischkatze1.jpg"
               alt="my cat sitting on my computer desk"
-              width="350"
+              width="330"
               height="560"
             />
             <figcaption>hello World, let me introduce Mimi ♥️</figcaption>

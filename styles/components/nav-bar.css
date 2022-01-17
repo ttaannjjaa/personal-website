@@ -1,0 +1,21 @@
+.nav-bar__ul {
+  display: flex;
+  align-items: space-around;
+  margin: 0 0 1rem 0;
+}
+
+nav li {
+  margin: 0 0.4rem 0 0;
+}
+
+.nav-bar a:hover {
+  background-color: black;
+  color: rgb(248, 247, 242);
+}
+
+/*
+#mail a:hover {
+  background-color: black;
+  color: rgb(248, 247, 242);
+}
+*/
