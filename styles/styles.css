@@ -4,61 +4,6 @@
 @import "./components/main-header.css";
 @import "./components/nav-bar.css";
 @import "./components/tagfield.css";
-@import "./components/insight.css";
+@import "./components/biography.css";
 @import "./components/contact.css";
-
-#biography {
-  margin: 2.2rem 3rem 1.8rem;
-  text-align: center;
-}
-
-#biography h2 {
-  padding: 0 0 0.3rem 0;
-  margin: 0 0 0.5rem 0;
-  text-align: center;
-}
-
-h3 {
-  padding: 0 0 0.3rem 0;
-  margin: 1rem;
-  text-align: center;
-}
-
-.capstones {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-.capstonelist {
-  max-width: 350px;
-  height: 200px;
-  padding: 8px;
-  background-color: white;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  overflow: hidden;
-}
-
-.topcapstone {
-  text-align: center;
-}
-
-.topcapstone img {
-  filter: contrast(120%);
-}
-
-#neuefische:hover {
-  border-bottom: black 1px solid;
-}
-
-.capstones p {
-  margin: 1.5rem 3rem 1.8rem;
-  text-align: center;
-}
-
-.capstones span {
-  white-space: nowrap;
-}
+@import "./components/insight.css";
