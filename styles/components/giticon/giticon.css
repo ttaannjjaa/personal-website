@@ -1,15 +1,3 @@
-.mb-1rem {
-  margin: 0 0 1rem 0;
-}
-
-.mr-3px {
-  margin-right: 3px;
-}
-
-.whitespace-notwrap {
-  white-space: nowrap;
-}
-
 .giticon {
   margin: 0.8rem;
   background-color: var(--creme);
