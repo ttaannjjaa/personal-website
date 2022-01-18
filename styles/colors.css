@@ -1,5 +1,7 @@
 :root {
-  --bloodyred: rgb(66, 6, 6);
+  --bloodyred: rgba(71, 11, 11, 0.6);
   --creme: rgb(248, 247, 242);
-  --cremegrey: ;
+  --cremeolive: rgb(221, 219, 210);
+  --cremebluetouch: rgb(216, 215, 233);
+  --intensered: rgb(126, 9, 9);
 }

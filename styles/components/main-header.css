@@ -1,7 +1,7 @@
 .main-header {
-  border-bottom: solid 0.5px rgb(126, 9, 9);
-  border-top: solid 0.5px rgb(126, 9, 9);
-  background-color: rgb(221, 219, 210);
+  border-bottom: solid 0.5px var(--bloodyred);
+  border-top: solid 0.5px var(--bloodyred);
+  background-color: var(--cremeolive);
   display: flex;
   justify-content: space-around;
   align-items: center;

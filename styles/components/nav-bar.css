@@ -4,11 +4,11 @@
   margin: 0 0 1rem 0;
 }
 
-nav li {
+.nav-bar__listitem {
   margin: 0 0.4rem 0 0;
 }
 
-.nav-bar a:hover {
+.nav-bar__link:hover {
   background-color: black;
-  color: rgb(248, 247, 242);
+  color: var(--creme);
 }
