@@ -1,0 +1,11 @@
+.giticon {
+  margin: 0.8rem;
+  background-color: var(--creme);
+}
+
+.giticon:hover {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background-color: var(--bloodyred);
+}
