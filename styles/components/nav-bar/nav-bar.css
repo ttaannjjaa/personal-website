@@ -1,0 +1,14 @@
+.nav-bar__ul {
+  display: flex;
+  align-items: space-around;
+  margin: 0 0 1rem 0;
+}
+
+.nav-bar__listitem {
+  margin: 0 0.4rem 0 0;
+}
+
+.nav-bar__link:hover {
+  background-color: black;
+  color: var(--creme);
+}
