@@ -1,0 +1,11 @@
+.nav-bar__listitem {
+  margin: 0 0.4rem 0 0;
+}
+
+.nav-bar__listitem--link:hover {
+  background-color: black;
+  color: var(--creme);
+}
+
+.nav-bar__listitem--big {
+}
