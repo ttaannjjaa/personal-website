@@ -21,8 +21,8 @@
   padding: 8px 12px;
   border-radius: 5px;
   margin: 0 12px 1.5rem 0;
-  border: 0.1rem solid var(--bloodyred);
-  box-shadow: inset 0 0 2px 1px var(--bloodyred);
+  border: 0.1rem solid var(--cherrybrown);
+  box-shadow: inset 0 0 2px 1px var(--cherrybrown);
   list-style-type: none;
   text-align: center;
 }

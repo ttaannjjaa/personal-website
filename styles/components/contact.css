@@ -10,7 +10,7 @@
 
 .contact__button-style {
   padding: 1rem;
-  border: solid 2px var(--bloodyred);
+  border: solid 2px var(--cherrybrown);
   width: 250px;
   border-radius: 53px;
   display: flex;
@@ -18,6 +18,10 @@
   font-weight: bold;
   align-items: center;
   flex-shrink: 0;
+}
+
+.contact__button-style > img {
+  margin: 0 3px;
 }
 
 .contact__button-style--linkedin {
@@ -34,7 +38,12 @@
   font-weight: 800;
 }
 
+.contact__button-style:hover {
+  background-color: var(--cherrybrown);
+  color: var(--creme);
+  opacity: 0.8;
+}
+
 .contact__button-style--mail:hover {
-  background-color: black;
   color: var(--creme);
 }

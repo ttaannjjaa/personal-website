@@ -4,7 +4,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  border-top: 1px solid var(--bloodyred);
+  border-top: 1px solid var(--cherrybrown);
 }
 
 .insight-container {
@@ -13,7 +13,7 @@
   max-width: 400px;
   display: flex;
   justify-content: center;
-  border: 1px solid var(--bloodyred);
+  border: 1px solid var(--cherrybrown);
 }
 
 .insight__figure {

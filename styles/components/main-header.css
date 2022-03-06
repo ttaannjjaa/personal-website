@@ -1,6 +1,6 @@
 .main-header {
-  border-bottom: solid 0.5px var(--bloodyred);
-  border-top: solid 0.5px var(--bloodyred);
+  border-bottom: solid 0.5px var(--cherrybrown);
+  border-top: solid 0.5px var(--cherrybrown);
   background-color: var(--cremeolive);
   display: flex;
   justify-content: space-around;
