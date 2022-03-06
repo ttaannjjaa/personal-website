@@ -9,6 +9,7 @@
 }
 
 .nav-bar__link:hover {
-  background-color: black;
+  background-color: var(--cherrybrown);
   color: var(--creme);
+  opacity: 0.8;
 }
